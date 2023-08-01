@@ -1,0 +1,15 @@
+{
+	"name": "portfolio",
+	"description": "Portfolio to demonstrate my projects and experiences throughout my career.",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:gonzaliaga"
+	},
+	"bugs": {
+		"url": "https://github.com/gonzaliaga"
+	},
+	"author": "Gonzalo Cuellar Aliaga <gonzaliaga@gmail.com>",
+	"homepage": "",
+	"license": "MIT"
+}

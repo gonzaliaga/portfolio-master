@@ -1,0 +1,71 @@
+.footer {
+  background: var(--c14);
+  color: var(--c0);
+}
+
+.footer-container {
+  height: fit-content;
+  padding: 20px 30px; /* Ajustar el valor del padding aquí */
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer-texto {
+  font-size: 1.2rem; /* Ajustar el tamaño de fuente aquí */
+  line-height: 1.33;
+  color: var(--c4);
+}
+
+.footer-contacto li {
+  font-weight: bold;
+  margin-bottom: 20px; /* Ajustar el valor del margen aquí */
+}
+
+.footer-contacto a {
+  text-decoration: none;
+  color: var(--c0);
+  position: relative;
+}
+
+.footer-contacto a::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+
+  position: absolute;
+  left: -46px;
+  top: -6px;
+}
+
+.footer-email a::before {
+  background: url("../svg/envelope.svg") no-repeat center;
+}
+
+.footer-whatsapp a::before {
+  background: url("../svg/whatsapp.svg") no-repeat center;
+}
+
+.footer-linkedin a::before {
+  background: url("../svg/linkedin.svg") no-repeat center;
+}
+
+.footer-copy {
+  color: var(--c7);
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 30px 15px; /* Ajustar el valor del padding aquí */
+    gap: 20px;
+  }
+  .footer-contacto li {
+    margin-bottom: 5px; /* Ajustar el valor del margen aquí */
+  }
+
+  .footer-contacto a::before {
+    display: none;
+  }
+}
