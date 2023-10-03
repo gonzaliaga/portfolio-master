@@ -5,9 +5,11 @@
 
 .footer-container {
   height: fit-content;
-  padding: 20px 30px; /* Ajustar el valor del padding aquí */
+  padding: 20px 30px;
   grid-template-columns: 1fr 1fr;
+  //margin-top: 10px; /* Agregamos un margen de 10px en la parte superior */
 }
+
 
 .footer-texto {
   font-size: 1.2rem; /* Ajustar el tamaño de fuente aquí */
@@ -17,7 +19,8 @@
 
 .footer-contacto li {
   font-weight: bold;
-  margin-bottom: 20px; /* Ajustar el valor del margen aquí */
+  margin-bottom: 30px; /* Ajustar el valor del margen aquí */
+  
 }
 
 .footer-contacto a {
