@@ -52,13 +52,16 @@
   background: url("../svg/linkedin.svg") no-repeat center;
 }
 
+.footer-github a::before {
+  background: url("https://res.cloudinary.com/dkvo22lv7/image/upload/v1696365854/github_ko70th.jpg") no-repeat center;
+}
 .footer-copy {
   color: var(--c7);
-  text-align: center;
-  grid-column: 1 / -1;
+  //text-align: center;
+  //grid-column: -1 ;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 450px) {
   .footer-container {
     grid-template-columns: 1fr;
     padding: 30px 15px; /* Ajustar el valor del padding aquí */
@@ -72,3 +75,6 @@
     display: none;
   }
 }
+
+
+// <img src="https://res.cloudinary.com/dkvo22lv7/image/upload/v1696364244/github_zdkqkz.png" width="32"/>
